@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstname": "shivender",
+      "lastName": "Singh",
+      "email": "shivender339@gmail.com",
+      "age": 45
+    },
+    {
+      "id": "2",
+      "firstname": "ravi",
+      "lastName": "teza",
+      "email": "ravi339@gmail.com",
+      "age": 44
+    },
+    {
+      "id": "3",
+      "firstname": "Rohan",
+      "lastName": "Patil",
+      "email": "rohan.patil@cybage.com",
+      "age": 47
+    },
+    {
+      "id": "5",
+      "firstname": "Arpit",
+      "lastName": "chauhan",
+      "email": "asdasd@gmail.com",
+      "age": 46
+    },
+    {
+      "id": "6",
+      "firstname": "Arpit",
+      "lastName": "chauhan",
+      "email": "asdasd@gmail.com",
+      "age": 46
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "discription": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services."
+    },
+    {
+      "id": "2",
+      "name": "Microsoft",
+      "discription": "Hewlett-Packard's HP Associates division, established around 1960, developed semiconductor devices primarily for internal use. HP Associates was co-founded"
+    }
+  ]
+}

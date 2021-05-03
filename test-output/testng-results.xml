@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3502" started-at="2021-05-03T04:10:29Z" finished-at="2021-05-03T04:10:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3502" started-at="2021-05-03T04:10:29Z" finished-at="2021-05-03T04:10:33Z">
+      <class name="com.scrolltest.api.tests.TestGETPerson">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.scrolltest.api.tests.TestGETPerson@45dd4eda]" name="init" is-config="true" duration-ms="757" started-at="2021-05-03T04:10:29Z" finished-at="2021-05-03T04:10:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testgetAllperson()[pri:0, instance:com.scrolltest.api.tests.TestGETPerson@45dd4eda]" name="testgetAllperson" duration-ms="1472" started-at="2021-05-03T04:10:30Z" finished-at="2021-05-03T04:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetAllperson -->
+      </class> <!-- com.scrolltest.api.tests.TestGETPerson -->
+      <class name="com.scrolltest.api.tests.TestPATCHPerson">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.scrolltest.api.tests.TestPATCHPerson@60611244]" name="init" is-config="true" duration-ms="1" started-at="2021-05-03T04:10:32Z" finished-at="2021-05-03T04:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testpostcreateperson()[pri:0, instance:com.scrolltest.api.tests.TestPATCHPerson@60611244]" name="testpostcreateperson" duration-ms="1052" started-at="2021-05-03T04:10:32Z" finished-at="2021-05-03T04:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpostcreateperson -->
+      </class> <!-- com.scrolltest.api.tests.TestPATCHPerson -->
+      <class name="com.scrolltest.api.tests.TestPOSTPerson">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.scrolltest.api.tests.TestPOSTPerson@3745e5c6]" name="init" is-config="true" duration-ms="5" started-at="2021-05-03T04:10:33Z" finished-at="2021-05-03T04:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testpostcreateperson()[pri:0, instance:com.scrolltest.api.tests.TestPOSTPerson@3745e5c6]" name="testpostcreateperson" duration-ms="103" started-at="2021-05-03T04:10:33Z" finished-at="2021-05-03T04:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpostcreateperson -->
+      </class> <!-- com.scrolltest.api.tests.TestPOSTPerson -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
