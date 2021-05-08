@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>E:\API\RestAssuredAPITesting_BDD_Project\target\testng.xml</span>
+                    <span>E:\API\RestAssuredAPITesting_BDD_Project\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,6 +108,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.scrolltest.api.tests.TestPATCHPerson" hash-for-method="testpostcreateperson">testpostcreateperson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.scrolltest.api.tests.TestDELETPerson" hash-for-method="testpostcreateperson">testpostcreateperson</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -130,7 +135,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.scrolltest.api.tests.TestPOSTPerson</span>
+              <span class="class-name">com.scrolltest.api.tests.TestDELETPerson</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -160,6 +165,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.scrolltest.api.tests.TestPOSTPerson</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testpostcreateperson">
+                  </a> <!-- testpostcreateperson -->
+                  <span class="method-name">testpostcreateperson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.scrolltest.api.tests.TestPATCHPerson</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -175,7 +195,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\API\RestAssuredAPITesting_BDD_Project\target\testng.xml</span>
+            <span class="header-content">E:\API\RestAssuredAPITesting_BDD_Project\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -185,6 +205,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.scrolltest.api.tests.TestGETPerson&quot;/&gt;
+      &lt;class name=&quot;com.scrolltest.api.tests.TestDELETPerson&quot;/&gt;
       &lt;class name=&quot;com.scrolltest.api.tests.TestPATCHPerson&quot;/&gt;
       &lt;class name=&quot;com.scrolltest.api.tests.TestPOSTPerson&quot;/&gt;
     &lt;/classes&gt;
@@ -200,7 +221,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,24 +247,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testgetAllperson')
 data.setCell(0, 2, 'com.scrolltest.api.tests.TestGETPerson')
-data.setCell(0, 3, 1472);
+data.setCell(0, 3, 2749);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testpostcreateperson')
 data.setCell(1, 2, 'com.scrolltest.api.tests.TestPATCHPerson')
-data.setCell(1, 3, 1052);
+data.setCell(1, 3, 1553);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testpostcreateperson')
-data.setCell(2, 2, 'com.scrolltest.api.tests.TestPOSTPerson')
-data.setCell(2, 3, 103);
+data.setCell(2, 2, 'com.scrolltest.api.tests.TestDELETPerson')
+data.setCell(2, 3, 242);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testpostcreateperson')
+data.setCell(3, 2, 'com.scrolltest.api.tests.TestPOSTPerson')
+data.setCell(3, 3, 106);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -258,9 +283,36 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.scrolltest.api.tests.TestDELETPerson</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.scrolltest.api.tests.TestPOSTPerson</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.scrolltest.api.tests.TestPATCHPerson</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -270,36 +322,74 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.scrolltest.api.tests.TestGETPerson</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">init</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">286 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testgetAllperson</span>
-                <span class="method-start">769 ms</span>
+                <span class="method-start">1990 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testgetAllperson status=SUCCESS method=TestGETPerson.testgetAllperson()[pri:0, inst...)</span>
+                <span class="method-start">4834 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scrolltest.api.tests.TestDELETPerson</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">4895 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testpostcreateperson</span>
+                <span class="method-start">4897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testpostcreateperson status=SUCCESS method=TestDELETPerson.testpostcreateperson()[p...)</span>
+                <span class="method-start">5150 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scrolltest.api.tests.TestPATCHPerson</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">init</span>
-                <span class="method-start">2311 ms</span>
+                <span class="method-start">5154 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testpostcreateperson</span>
-                <span class="method-start">2312 ms</span>
+                <span class="method-start">5158 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testpostcreateperson status=SUCCESS method=TestPATCHPerson.testpostcreateperson()[p...)</span>
+                <span class="method-start">6716 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scrolltest.api.tests.TestPOSTPerson</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">init</span>
-                <span class="method-start">3370 ms</span>
+                <span class="method-start">6720 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testpostcreateperson</span>
-                <span class="method-start">3376 ms</span>
+                <span class="method-start">6722 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testpostcreateperson status=SUCCESS method=TestPOSTPerson.testpostcreateperson()[pr...)</span>
+                <span class="method-start">6832 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scrolltest.api.tests.TestGETPerson</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6891 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

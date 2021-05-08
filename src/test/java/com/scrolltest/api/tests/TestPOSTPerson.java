@@ -5,10 +5,10 @@ import static org.testng.Assert.assertNotNull;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.scrolltest.api.helpers.Personservicehelpers;
+import com.scrolltest.api.rEPORT.ExtentReport;
 
-public class TestPOSTPerson {
+public class TestPOSTPerson  extends ExtentReport{
 
 	//init -Personservicehelpers
 	
@@ -20,7 +20,8 @@ public class TestPOSTPerson {
 	}
 	@Test
 	public void testpostcreateperson() {
-	String id = personservicehelpers.createPerson().jsonPath().getString("id");
+		test = extent.createTest("Post Testcase");
+		String id = personservicehelpers.createPerson().jsonPath().getString("id");
 	System.err.println(id);
 	assertNotNull(id, "id is not null");
 

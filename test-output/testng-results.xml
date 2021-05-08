@@ -1,41 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3502" started-at="2021-05-03T04:10:29Z" finished-at="2021-05-03T04:10:33Z">
+  <suite name="Suite" duration-ms="6579" started-at="2021-05-07T18:42:14Z" finished-at="2021-05-07T18:42:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3502" started-at="2021-05-03T04:10:29Z" finished-at="2021-05-03T04:10:33Z">
+    <test name="Test" duration-ms="6579" started-at="2021-05-07T18:42:14Z" finished-at="2021-05-07T18:42:21Z">
       <class name="com.scrolltest.api.tests.TestGETPerson">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.scrolltest.api.tests.TestGETPerson@45dd4eda]" name="init" is-config="true" duration-ms="757" started-at="2021-05-03T04:10:29Z" finished-at="2021-05-03T04:10:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.scrolltest.api.tests.TestGETPerson@6e75aa0d]" name="setUp" is-config="true" duration-ms="254" started-at="2021-05-07T18:42:14Z" finished-at="2021-05-07T18:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.scrolltest.api.tests.TestGETPerson@6e75aa0d]" name="init" is-config="true" duration-ms="1688" started-at="2021-05-07T18:42:14Z" finished-at="2021-05-07T18:42:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testgetAllperson()[pri:0, instance:com.scrolltest.api.tests.TestGETPerson@45dd4eda]" name="testgetAllperson" duration-ms="1472" started-at="2021-05-03T04:10:30Z" finished-at="2021-05-03T04:10:32Z">
+        <test-method status="PASS" signature="testgetAllperson()[pri:0, instance:com.scrolltest.api.tests.TestGETPerson@6e75aa0d]" name="testgetAllperson" duration-ms="2749" started-at="2021-05-07T18:42:16Z" finished-at="2021-05-07T18:42:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testgetAllperson -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.scrolltest.api.tests.TestGETPerson@6e75aa0d]" name="getResult" is-config="true" duration-ms="33" started-at="2021-05-07T18:42:19Z" finished-at="2021-05-07T18:42:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testgetAllperson status=SUCCESS method=TestGETPerson.testgetAllperson()[pri:0, instance:com.scrolltest.api.tests.TestGETPerson@6e75aa0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scrolltest.api.tests.TestGETPerson@6e75aa0d]" name="tearDown" is-config="true" duration-ms="938" started-at="2021-05-07T18:42:21Z" finished-at="2021-05-07T18:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.scrolltest.api.tests.TestGETPerson -->
       <class name="com.scrolltest.api.tests.TestPATCHPerson">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.scrolltest.api.tests.TestPATCHPerson@60611244]" name="init" is-config="true" duration-ms="1" started-at="2021-05-03T04:10:32Z" finished-at="2021-05-03T04:10:32Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.scrolltest.api.tests.TestPATCHPerson@2cbb3d47]" name="init" is-config="true" duration-ms="3" started-at="2021-05-07T18:42:19Z" finished-at="2021-05-07T18:42:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testpostcreateperson()[pri:0, instance:com.scrolltest.api.tests.TestPATCHPerson@60611244]" name="testpostcreateperson" duration-ms="1052" started-at="2021-05-03T04:10:32Z" finished-at="2021-05-03T04:10:33Z">
+        <test-method status="PASS" signature="testpostcreateperson()[pri:0, instance:com.scrolltest.api.tests.TestPATCHPerson@2cbb3d47]" name="testpostcreateperson" duration-ms="1553" started-at="2021-05-07T18:42:19Z" finished-at="2021-05-07T18:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testpostcreateperson -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.scrolltest.api.tests.TestPATCHPerson@2cbb3d47]" name="getResult" is-config="true" duration-ms="1" started-at="2021-05-07T18:42:21Z" finished-at="2021-05-07T18:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testpostcreateperson status=SUCCESS method=TestPATCHPerson.testpostcreateperson()[pri:0, instance:com.scrolltest.api.tests.TestPATCHPerson@2cbb3d47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- com.scrolltest.api.tests.TestPATCHPerson -->
       <class name="com.scrolltest.api.tests.TestPOSTPerson">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.scrolltest.api.tests.TestPOSTPerson@3745e5c6]" name="init" is-config="true" duration-ms="5" started-at="2021-05-03T04:10:33Z" finished-at="2021-05-03T04:10:33Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.scrolltest.api.tests.TestPOSTPerson@527e5409]" name="init" is-config="true" duration-ms="1" started-at="2021-05-07T18:42:21Z" finished-at="2021-05-07T18:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testpostcreateperson()[pri:0, instance:com.scrolltest.api.tests.TestPOSTPerson@3745e5c6]" name="testpostcreateperson" duration-ms="103" started-at="2021-05-03T04:10:33Z" finished-at="2021-05-03T04:10:33Z">
+        <test-method status="PASS" signature="testpostcreateperson()[pri:0, instance:com.scrolltest.api.tests.TestPOSTPerson@527e5409]" name="testpostcreateperson" duration-ms="106" started-at="2021-05-07T18:42:21Z" finished-at="2021-05-07T18:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testpostcreateperson -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.scrolltest.api.tests.TestPOSTPerson@527e5409]" name="getResult" is-config="true" duration-ms="2" started-at="2021-05-07T18:42:21Z" finished-at="2021-05-07T18:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testpostcreateperson status=SUCCESS method=TestPOSTPerson.testpostcreateperson()[pri:0, instance:com.scrolltest.api.tests.TestPOSTPerson@527e5409] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- com.scrolltest.api.tests.TestPOSTPerson -->
+      <class name="com.scrolltest.api.tests.TestDELETPerson">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.scrolltest.api.tests.TestDELETPerson@7fc229ab]" name="init" is-config="true" duration-ms="1" started-at="2021-05-07T18:42:19Z" finished-at="2021-05-07T18:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testpostcreateperson()[pri:0, instance:com.scrolltest.api.tests.TestDELETPerson@7fc229ab]" name="testpostcreateperson" duration-ms="242" started-at="2021-05-07T18:42:19Z" finished-at="2021-05-07T18:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpostcreateperson -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.scrolltest.api.tests.TestDELETPerson@7fc229ab]" name="getResult" is-config="true" duration-ms="1" started-at="2021-05-07T18:42:19Z" finished-at="2021-05-07T18:42:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testpostcreateperson status=SUCCESS method=TestDELETPerson.testpostcreateperson()[pri:0, instance:com.scrolltest.api.tests.TestDELETPerson@7fc229ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.scrolltest.api.tests.TestDELETPerson -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
